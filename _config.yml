@@ -7,11 +7,11 @@ gems:
 title: "Emily Ng"
 description: > # this means to ignore newlines until "email:"
    Welcome to my data science blog! I hope you enjoy reading about some of the
-   stuff that I've done.
+   stuff I've done.
 
 email: emilyng38@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/Butler.jpeg"
 float_logo: true # true, false (default)
 
 # blog cover
