@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Hello and Welcome!
+###Hello and Welcome!
 
 My name is Emily and I am an aspiring data scientist in Chicago, IL.
 I have a background in Physics and Astronomy from the University of Illinois at Urbana-Champaign.
