@@ -6,7 +6,8 @@ gems:
 # Site settings
 title: "Emily Ng"
 description: > # this means to ignore newlines until "email:"
-   A Jekyll theme - Medium inspired
+   Welcome to my data science blog! I hope you enjoy reading about some of the
+   stuff that I've done.
 
 email: emilyng38@gmail.com
 #blog logo
