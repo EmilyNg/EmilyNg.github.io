@@ -19,6 +19,6 @@ experience with Metis.
 I update my Github more frequently than this blog, so if you'd like to know what I'm
 currently working on, I suggest taking a look at my [Github](https://github.com/emilyng) page!
 
-My favorite genre of books and movies is mystery and suspense! To me, data science feels like
+My favorite genre of books and movies are mystery and suspense! To me, data science feels like
 being a detective that takes data as clues that build up to a complete picture. Data science allows
 us to answer complicated questions and provide conclusions to drive difficult decision making.
