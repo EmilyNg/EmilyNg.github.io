@@ -60,13 +60,13 @@ Below, we have a graph of just one week of June in 2020, scaled appropriately to
 We also played around with Folium as we wanted to visualize where these stations were located in relation to each other. Another detail we thought might be useful to out client was the COVID infection rates in different areas of NYC to visualize some risky locations that our client may need to take into consideration.
 
 ### Pre-COVID Stations
-<a href="/assets/article_images/2020-07-20-MTA_Turnstiles/Pre-COVID Stations Map.html">Pre-COVID Stations Map</a>
+![Pre-COVID Stations Map](/assets/article_images/2020-07-20-MTA_Turnstiles/PreCovidMap.png)
 
 Prior to COVID, all top stations are located in Manhattan.
 This makes it easier for our canvassers to move around to different stations throughout the day. Our teams could start working in the early morning rush, take a break in central park, then commute to other stations for the evening rush.
 
 ### JUNE 2020 Stations with COVID case counts
-![COVID Stations Map](/assets/article_images/2020-07-20-MTA_Turnstiles/PostCovid MTD Map.html)
+![June 2020 Stations Map](/assets/article_images/2020-07-20-MTA_Turnstiles/june2020map.png)
 
 While mapping out our June 2020 top stations, we notice that traffic patterns are more spread out across New York City. Hence, it would be best to have 2 main groups, one in Manhattan and another in Queens/Brooklyn and later distribute over specific stations.
 
