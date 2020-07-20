@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2020-07-19 20:48:25
+date:   2020-07-19 14:34:25
 categories: jekyll update
 tags: featured
 image: /assets/article_images/2020-07-19-My-First-Blog-Post/marc-wieland-zrj-TPjcRLA-unsplash.jpg
