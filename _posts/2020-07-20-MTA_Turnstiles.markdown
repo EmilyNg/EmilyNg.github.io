@@ -32,18 +32,20 @@ Working with MTA data definitely gave us a real feeling of how messy real data i
 
 While looking through June 2020 data, we thought it would also be interesting to compare the this year's traffic with last years. Below, we show a comparison of the top 10 stations in June 2019 and June 2020.
 
-| Pre-COVID                     | During COVID                   |
-|-------------------------------|--------------------------------|
-| 47-50 St - Rockefeller Center | 125th St                       |
-| 42 St - Port Authority        | 14 St - Union Square           |
-| 14 St - Union Square          | Jackson Heights - Roosevelt    |
-| Grand Central - 42 St         | Brooklyn Bridge                |
-| Times Square - 42 St          | Flushing - Main St             |
-| 34 St - Penn Station          | 42 St - Port Authority         |
-| 42 St - Bryant Park           | Junction Blvd                  |
-| 34 St - Herald Square         | 59th St Columbus Circle        |
-| Fulton St                     | Sutphin Blvd - Archer Ave -JFK |
-| 7 Avenue                      | Jamaica Center                 |
+| Pre-COVID                         | During COVID                      |
+|-----------------------------------|-----------------------------------|
+| 47-50 St - Rockefeller Center     | 125th St                          |
+| 42 St - Port Authority            | 14 St - Union Square              |
+| 14 St - Union Square              | Jackson Heights - Roosevelt       |
+| Grand Central - 42 St             | Brooklyn Bridge                   |
+| Times Square - 42 St              | Flushing - Main St                |
+| 34 St - Penn Station              | 42 St - Port Authority            |
+| 42 St - Bryant Park               | Junction Blvd                     |
+| 34 St - Herald Square             | 59th St Columbus Circle           |
+| Fulton St                         | Sutphin Blvd - Archer Ave -JFK    |
+| 7 Avenue                          | Jamaica Center                    |
+
+
 
 It turns out that there are only 2 stations in common between the Pre-COVID and during COVID: 42 St - Port Authority and 14 St - Union Square. We also found that ridership decreased by 90% this year as compared to historical traffic.
 
@@ -58,7 +60,7 @@ Below, we have a graph of just one week of June in 2020, scaled appropriately to
 We also played around with Folium as we wanted to visualize where these stations were located in relation to each other. Another detail we thought might be useful to out client was the COVID infection rates in different areas of NYC to visualize some risky locations that our client may need to take into consideration.
 
 ### Pre-COVID Stations
-![Pre-COVID Stations Map](/assets/article_images/2020-07-20-MTA_Turnstiles/Pre-COVID Stations Map.html)
+<a href="/assets/article_images/2020-07-20-MTA_Turnstiles/Pre-COVID Stations Map.html">Pre-COVID Stations Map</a>
 
 Prior to COVID, all top stations are located in Manhattan.
 This makes it easier for our canvassers to move around to different stations throughout the day. Our teams could start working in the early morning rush, take a break in central park, then commute to other stations for the evening rush.
@@ -70,4 +72,4 @@ While mapping out our June 2020 top stations, we notice that traffic patterns ar
 
 Another point of interest for us was that the June 2020 map shows primarily where people live and where essential businesses are located and traffic counts are not inflated with tourists. If we were to be doing this analysis on last year's data, we would have run into the problem where a lot of the traffic captured would be from tourists visiting the city. Here, we have captured where locals frequently travel on a day to day basis and would provide a better audience for our outreach program.
 
-Aside from this, my group mate, Allen Ni, mentioned a very interesting observation on how this study gives us an unintended insight into NYC's social infrastructure. From this, we have captured the most essential train stations for New Yorkers and I think that's pretty cool! 
+Aside from this, my group mate, Allen Ni, mentioned a very interesting observation on how this study gives us an unintended insight into NYC's social infrastructure. From this, we have captured the most essential train stations for New Yorkers and I think that's pretty cool!
