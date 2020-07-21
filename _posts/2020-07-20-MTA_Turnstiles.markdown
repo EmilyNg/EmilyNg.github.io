@@ -45,6 +45,7 @@ While looking through June 2020 data, we thought it would also be interesting to
 | Fulton St                         | Sutphin Blvd - Archer Ave -JFK    |
 | 7 Avenue                          | Jamaica Center                    |
 
+\n
 
 
 It turns out that there are only 2 stations in common between the Pre-COVID and during COVID: 42 St - Port Authority and 14 St - Union Square. We also found that ridership decreased by 90% this year as compared to historical traffic.
