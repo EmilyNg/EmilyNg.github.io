@@ -32,20 +32,20 @@ Working with MTA data definitely gave us a real feeling of how messy real data i
 
 While looking through June 2020 data, we thought it would also be interesting to compare the this year's traffic with last years. Below, we show a comparison of the top 10 stations in June 2019 and June 2020.
 
-| Pre-COVID                         | During COVID                      |
-|-----------------------------------|-----------------------------------|
-| 47-50 St - Rockefeller Center     | 125th St                          |
-| 42 St - Port Authority            | 14 St - Union Square              |
-| 14 St - Union Square              | Jackson Heights - Roosevelt       |
-| Grand Central - 42 St             | Brooklyn Bridge                   |
-| Times Square - 42 St              | Flushing - Main St                |
-| 34 St - Penn Station              | 42 St - Port Authority            |
-| 42 St - Bryant Park               | Junction Blvd                     |
-| 34 St - Herald Square             | 59th St Columbus Circle           |
-| Fulton St                         | Sutphin Blvd - Archer Ave -JFK    |
-| 7 Avenue                          | Jamaica Center                    |
+| Pre-COVID                              | During COVID                      |
+|----------------------------------------|-----------------------------------|
+| 47-50 St - Rockefeller Center &nbsp    | 125th St                          |
+| 42 St - Port Authority      &nbsp      | 14 St - Union Square              |
+| 14 St - Union Square        &nbsp      | Jackson Heights - Roosevelt       |
+| Grand Central - 42 St       &nbsp      | Brooklyn Bridge                   |
+| Times Square - 42 St        &nbsp      | Flushing - Main St                |
+| 34 St - Penn Station        &nbsp      | 42 St - Port Authority            |
+| 42 St - Bryant Park         &nbsp      | Junction Blvd                     |
+| 34 St - Herald Square       &nbsp      | 59th St Columbus Circle           |
+| Fulton St                   &nbsp      | Sutphin Blvd - Archer Ave -JFK    |
+| 7 Avenue                    &nbsp      | Jamaica Center                    |
 
-\n
+<br />
 
 
 It turns out that there are only 2 stations in common between the Pre-COVID and during COVID: 42 St - Port Authority and 14 St - Union Square. We also found that ridership decreased by 90% this year as compared to historical traffic.
