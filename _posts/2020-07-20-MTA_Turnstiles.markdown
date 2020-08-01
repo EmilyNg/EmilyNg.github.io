@@ -74,3 +74,5 @@ While mapping out our June 2020 top stations, we notice that traffic patterns ar
 Another point of interest for us was that the June 2020 map shows primarily where people live and where essential businesses are located and traffic counts are not inflated with tourists. If we were to be doing this analysis on last year's data, we would have run into the problem where a lot of the traffic captured would be from tourists visiting the city. Here, we have captured where locals frequently travel on a day to day basis and would provide a better audience for our outreach program.
 
 Aside from this, my group mate, Allen Ni, mentioned a very interesting observation on how this study gives us an unintended insight into NYC's social infrastructure. From this, we have captured the most essential train stations for New Yorkers and I think that's pretty cool!
+
+![Friendly Neighborhood Spiderman Riding the Subway](/assets/article_images/2020-07-20-MTA_Turnstiles/spiderman-subway.gif)
