@@ -75,4 +75,4 @@ Another point of interest for us was that the June 2020 map shows primarily wher
 
 Aside from this, my group mate, Allen Ni, mentioned a very interesting observation on how this study gives us an unintended insight into NYC's social infrastructure. From this, we have captured the most essential train stations for New Yorkers and I think that's pretty cool!
 
-<div style="text-align:center"><img src="/assets/article_images/2020-07-20-MTA_Turnstiles/spiderman-subway.gif" /></div>
+<div style="text-align:center"><img src="/assets/article_images/2020-07-20-MTA_Turnstiles/spiderman-subway.gif" width="500" height="300"/></div>
