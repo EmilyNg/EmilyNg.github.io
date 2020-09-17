@@ -55,7 +55,7 @@ I only looked at data from the years of 2014-2018 for my training set because th
 ## Correlation Between GDP per capita and SPI
 
 Although, economic factors don’t go directly into SPI, there is a strong correlation between GDP and SPI. However, a large GDP does not guarantee a high SPI.
-![GDP vs. SPI 2019](assets/article_images/2020-09-16-Social_Progress_Index/GDPvSPI_2019.svg)
+![GDP vs. SPI 2019](/assets/article_images/2020-09-16-Social_Progress_Index/GDPvSPI_2019.svg)
 In fact, Costa Rica, the US, and Singapore have similar SPIs but have a wide range of GDPs.
 
 After doing some exploratory data analysis, I found the top 5 countries with the highest increase and the highest decrease in SPI from 2014-2019. The top 5 increasing SPI countries are Ethiopia, Burkina Faso, Sri Lanka, Angola, and Luxembourg.
@@ -83,6 +83,8 @@ The top 5 DECREASING SPI countries are Nicaragua, the United States(!), Brazil, 
 | Brazil                                 | -0.72                             |
 | Hungary                                | -0.32                             |
 | Columbia                               | -0.25                             |
+
+</br>
 
 What was surprising was that despite the US' steadily increasing GDP per capita over the 2013-2018 time period, the United States hold 2nd place for countries with the strongest decrease in SPI! This further establishes the claim that an increase in GDP does not necessarily mean an increase in social well being.
 
@@ -140,7 +142,7 @@ Using the hold out test dataset to evaluate the model, I was able to achieve:
 
 R2 = 0.94 \
 RMSE = 3.45 \
-MAE = 2.69 \
+MAE = 2.69 
 
 | Feature &nbsp; &nbsp; &nbsp; &nbsp;    | Coefficient                       |
 |----------------------------------------|-----------------------------------|
