@@ -12,7 +12,7 @@ image: /assets/article_images/2020-09-16-Social_Progress_Index/cory-schadt-Hhcn6
 Wow, I'm embarrassed to say it's been such a long time since I last posted on this blog.
 I've been heavily focused on my Metis projects that my idea of regularly updating my progress in sync with the Metis timeline went completely out the window! I am now in my last week at Metis. Time has just gone by so quickly!! Now that I had just turned in my final project in today, I finally have some time to sit down and write about the projects I've done.
 
-The topic for this project is on regression. I decided to create a model to predict a country's Social Progress Index. We learned about linear regression, polynomial regression, as well as regularization methods and linear assumptions. For this project we were required to scrape our own data using ![BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and ![Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html). Some other topics we touched upon were some light feature engineering and data leakage.
+The topic for this project is on regression. I decided to create a model to predict a country's Social Progress Index. We learned about linear regression, polynomial regression, as well as regularization methods and linear assumptions. For this project we were required to scrape our own data using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) and [Selenium](https://www.selenium.dev/selenium/docs/api/py/api.html). Some other topics we touched upon were some light feature engineering and data leakage.
 
 # Social Progress Index
 
@@ -23,7 +23,7 @@ For a very long time, Gross Domestic Product (GDP) has been the prime indicator 
 
 The major criticisms of GDP is that it only looks at monetary output of a country and it does not necessarily consider the general well-being of citizens. Even with an increasing GDP, a country may be exhibiting increasing wealth inequality. Another example of the drawback of GDP is the cost of cleaning up pollution. By using processes that create pollution, the amount of money generated to clean up the pollution adds to the GDP, however having this pollution generation does not benefit social and environmental well being at all.
 
-New Zealand has already been looking for different metrics to use to supplement GDP to account for these drawbacks. They have been experimenting with using the ![Genuine Progress Indicator (GPI)](https://theconversation.com/the-search-for-an-alternative-to-gdp-to-measure-a-nations-progress-the-new-zealand-experience-118169) to replace GDP.
+New Zealand has already been looking for different metrics to use to supplement GDP to account for these drawbacks. They have been experimenting with using the [Genuine Progress Indicator (GPI)](https://theconversation.com/the-search-for-an-alternative-to-gdp-to-measure-a-nations-progress-the-new-zealand-experience-118169) to replace GDP.
 
 >[GPI] is essentially a macro-scale analysis of the costs and benefits of activities associated with economic activity. It includes personal consumption of goods and services as one of the largest benefits, but it balances this with costs, which may include social factors such as income inequality and environmental factors such as water pollution and the emission of greenhouse gases.
 
@@ -31,7 +31,7 @@ For this project, I decided to predict a country's Social Progress Index (SPI). 
 
 > The Social Progress Index is a new way to define the success of our societies. It is a comprehensive measure of real quality of life, independent of economic indicators. The Social Progress Index is designed to complement, rather than replace, economic measures such as GDP.
 
--![Social Progress Imperative](https://www.socialprogress.org/about-us)
+-[Social Progress Imperative](https://www.socialprogress.org/about-us)
 
 SPI has 4 foundational key points that makes it different from GDP.
 1. It is actionable and is able to be applied to both small communities and globally.
@@ -60,6 +60,8 @@ In fact, Costa Rica, the US, and Singapore have similar SPIs but have a wide ran
 
 After doing some exploratory data analysis, I found the top 5 countries with the highest increase and the highest decrease in SPI from 2014-2019. The top 5 increasing SPI countries are Ethiopia, Burkina Faso, Sri Lanka, Angola, and Luxembourg.
 
+</br>
+
 | Top Increasing Countries &nbsp; &nbsp; | SPI 14'-19' Difference            |
 |----------------------------------------|-----------------------------------|
 | Ethiopia                               | 6.10                              |
@@ -68,7 +70,11 @@ After doing some exploratory data analysis, I found the top 5 countries with the
 | Angola                                 | 4.07                              |
 | Luxembourg                             | 4.04                              |
 
+</br>
+
 The top 5 DECREASING SPI countries are Nicaragua, the United States(!), Brazil, Hungary, and Columbia.
+
+</br>
 
 | Top Decreasing Countries &nbsp; &nbsp; | SPI 14'-19' Difference            |
 |----------------------------------------|-----------------------------------|
@@ -81,6 +87,7 @@ The top 5 DECREASING SPI countries are Nicaragua, the United States(!), Brazil, 
 What was surprising was that despite the US' steadily increasing GDP per capita over the 2013-2018 time period, the United States hold 2nd place for countries with the strongest decrease in SPI! This further establishes the claim that an increase in GDP does not necessarily mean an increase in social well being.
 
 ![2013-2018 US GDP](/assets/article_images/2020-09-16-Social_Progress_Index/US_GDP.svg)
+</br>
 
 ## Features
 
@@ -113,7 +120,7 @@ I experimented with using different regression methods for this project. The dif
 - Lasso
 - 2nd Degree Polynomial Model
 
-Without performing any transformations on my data, performing a simple linear model, Ridge, or Lasso regression would produce an $R^2$ score of about 0.67. However, a 2nd degree polynomial would either produce a sub-0.4 $R^2$ score or an $R^2 > 0.96$. This tells me that the initial random state of the train validation split plays a big role in the polynomial model in addition to it tending to overfit at times. After doing cross validation, it performs comparable in the range of the other models.
+Without performing any transformations on my data, performing a simple linear model, Ridge, or Lasso regression would produce an R2 score of about 0.67. However, a 2nd degree polynomial would either produce a sub-0.4 R2 score or an R2 > 0.96. This tells me that the initial random state of the train validation split plays a big role in the polynomial model in addition to it tending to overfit at times. After doing cross validation, it performs comparable in the range of the other models.
 
 I noticed that GDP per capita and Science, Tech, and Innovation R&D expenditure are highly correlated with SPI. This prompted me to perform a logarithmic transformation on these features.
 
@@ -127,13 +134,13 @@ I noticed that GDP per capita and Science, Tech, and Innovation R&D expenditure 
 
 </br>
 
-After doing the log transformations and rerunning the models, all 3 models (simple linear, ridge, and lasso) performs well with $R^2 > 0.92$ In the end, I decided to move forward with the simple linear regression model for the benefit of being able to easily interpret coefficients.
+After doing the log transformations and rerunning the models, all 3 models (simple linear, ridge, and lasso) performs well with R2 > 0.92 In the end, I decided to move forward with the simple linear regression model for the benefit of being able to easily interpret coefficients.
 
 Using the hold out test dataset to evaluate the model, I was able to achieve:
 
-$$R^2 = 0.94$$ \
-$$RMSE = 3.45$$ \
-$$MAE = 2.69$$ \
+R2 = 0.94 \
+RMSE = 3.45 \
+MAE = 2.69 \
 
 | Feature &nbsp; &nbsp; &nbsp; &nbsp;    | Coefficient                       |
 |----------------------------------------|-----------------------------------|
@@ -142,6 +149,8 @@ $$MAE = 2.69$$ \
 | Gross Savings (%GDP)                   | -0.29                             |
 | Inflation Rate on Consumer Prices      | -0.095                            |
 | Tax Revenue (%GDP)                     |  0.019                            |
+
+</br>
 
 The fitted model holds an R-squared of 0.94, along with an RMSE of 3.45, and MAE of 2.69. One of the strongest feature is GDP per capita, with a coefficient of 0.107. Meaning that for every 1% GDP increase, the model suggests a 0.1 point increase in SPI. An initially somewhat surprising find is that gross savings is moderately negatively correlated with SPI.
 
@@ -152,6 +161,8 @@ The fitted model holds an R-squared of 0.94, along with an RMSE of 3.45, and MAE
 | Military                               | -0.41                             |
 | Science, Tech, Innovation R&D          |  0.0212                           |
 
+</br>
+
 Education has a great amount of influence on SPI, as well as does R&D expenditure. R&D expenditure coefficient tells us that for every percent of a percent of GDP increase,  SPI increases by 0.02 points. We also see that expenses on military is highly negatively correlated with SPI.
 
 | Energy (%) &nbsp; &nbsp; &nbsp; &nbsp; | Coefficient                       |
@@ -159,6 +170,8 @@ Education has a great amount of influence on SPI, as well as does R&D expenditur
 | Fossil Fuels                           |  0.012                            |
 | Hydroelectric Plants                   |  0.022                            |
 | Other Renewable Energy Sources         |  0.054                            |
+
+</br>
 
 Finally, looking at the energy terms we see that the one that influences SPI the most is renewable energy, but it should also be noted that fossil fuels usage is also slightly positively correlated with SPI.
 
