@@ -142,7 +142,7 @@ Using the hold out test dataset to evaluate the model, I was able to achieve:
 
 R2 = 0.94 \
 RMSE = 3.45 \
-MAE = 2.69 
+MAE = 2.69
 
 | Feature &nbsp; &nbsp; &nbsp; &nbsp;    | Coefficient                       |
 |----------------------------------------|-----------------------------------|
@@ -182,6 +182,3 @@ These results confirm the claim made by the creator of SPI that countries should
 ## Conclusion
 
 Overall, building a model to predict SPI was successful. The recommendations to get from this model is that for countries with smaller GDPs the initial aim should be to increase GDP to best improve SPI. Meanwhile, for countries like the United States that already have a high GDP, it would be the most beneficial to increase government funding and focus spending on education and science, tech, and innovation R&D.
-
-### Appendix: Linear Assumptions
-...
